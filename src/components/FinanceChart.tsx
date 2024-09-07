@@ -80,7 +80,7 @@ const FinanceChart = () => {
     return (
         <div className="bg-white rounded-xl w-full h-full p-4">
             <div className="flex justify-between items-center">
-                <h1 className="text-lg font-semibold">Attendance</h1>
+                <h1 className="text-lg font-semibold">Finance</h1>
                 <Image src="/moreDark.png" alt="" width={20} height={20} />
             </div>
 
@@ -123,13 +123,13 @@ const FinanceChart = () => {
                         type="monotone"
                         dataKey="income"
                         stroke="#c3bbfa"
-                        strokeWidth={5}
+                        strokeWidth={4}
                     />
                     <Line
                         type="monotone"
                         dataKey="expense"
                         stroke="#ceceff"
-                        strokeWidth={5}
+                        strokeWidth={4}
                     />
                 </LineChart>
             </ResponsiveContainer>
